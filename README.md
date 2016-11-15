@@ -1,5 +1,6 @@
 # Sourbot
 "_Grumpiness is the anger of the powerless_"
+
 The goal of this project is to keep a sourdough starter alive by feeding it with flour and water over time. The feeding may be done scheduled, automated with sensors or manually. All possible thanks to this sour robot 🤖.
 
 ## Videos
