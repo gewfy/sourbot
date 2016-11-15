@@ -9,10 +9,6 @@ https://www.youtube.com/watch?v=723Qmz6Ohw0
 Interacting with sourbot on slack
 https://www.youtube.com/watch?v=tsDQAau0rSw
 
-## Source code
-The [Particle](https://login.particle.io/build) and [Slack](http://slack.com/) bot source code is available on Github
-https://github.com/Vinnovera/sourbot
-
 ## 3D printable parts
 All 3D printable parts are available on Thingiverse
 http://www.thingiverse.com/thing:1893926
@@ -20,6 +16,7 @@ http://www.thingiverse.com/thing:1893926
 ## Parts list
 * [Photon](https://www.adafruit.com/products/2721) or [ReadBear Duo](https://redbear.cc/redbear-duo.html)
 * [AtlasScientific pH Kit](http://www.atlas-scientific.com/product_pages/probes/ph_probe.html)
+* [Analog CO2 Gas Sensor](https://www.dfrobot.com/index.php?route=product/product&product_id=1023)
 * [Peristaltic Liquid Pump with Silicone Tubing](https://www.adafruit.com/products/1150)
 * [TB6612FNG Dual Motor Driver Carrier](https://www.pololu.com/product/713)
 * [Continuous Rotation Servo](https://www.adafruit.com/products/154)
