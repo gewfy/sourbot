@@ -3,6 +3,8 @@
 
 The goal of this project is to keep a sourdough starter alive by feeding it with flour and water over time. The feeding may be done scheduled, automated with sensors or manually. All possible thanks to this sour robot 🤖.
 
+![image](https://cloud.githubusercontent.com/assets/474066/20364672/410cb132-ac44-11e6-9d2a-df78457357c4.png)
+
 ## Videos
 Demo of the feeding process
 https://www.youtube.com/watch?v=723Qmz6Ohw0
@@ -13,6 +15,10 @@ https://www.youtube.com/watch?v=tsDQAau0rSw
 ## 3D printable parts
 All 3D printable parts are available on Thingiverse
 http://www.thingiverse.com/thing:1893926
+
+## Electronics
+Use [Fritzing](http://fritzing.org/home/) to view the ```electronics.fzz``` file
+![image](https://cloud.githubusercontent.com/assets/474066/20364653/2f25c31e-ac44-11e6-8f12-e307ccc6c360.png)
 
 ## Parts list
 * [Photon](https://www.adafruit.com/products/2721) or [ReadBear Duo](https://redbear.cc/redbear-duo.html)
