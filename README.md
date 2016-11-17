@@ -18,7 +18,7 @@ http://www.thingiverse.com/thing:1893926
 
 ## Electronics
 Use [Fritzing](http://fritzing.org/home/) to view the ```electronics.fzz``` file
-![image](https://cloud.githubusercontent.com/assets/474066/20364653/2f25c31e-ac44-11e6-8f12-e307ccc6c360.png)
+![image](https://cloud.githubusercontent.com/assets/474066/20403021/6e9e437a-acff-11e6-8697-580d243ef634.png)
 
 ## Parts list
 * [Photon](https://www.adafruit.com/products/2721) or [ReadBear Duo](https://redbear.cc/redbear-duo.html)
