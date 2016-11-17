@@ -1,7 +1,7 @@
 {
-  "name": "🌟 Starbot",
-  "description": "Starbot is GitHub's trending open-source page, reincarnated as a Slack bot",
-  "repository": "https://github.com/mattcreager/starbot",
+  "name": "sourbot",
+  "description": "Grumpiness the anger of the powerless",
+  "repository": "https://github.com/Vinnovera/sourbot",
   "logo": "https://heroku-www-files.s3.amazonaws.com/starbot/starbot-icon.png",
   "success_url": "/",
   "env": {
@@ -9,7 +9,7 @@
       "required": true
     },
     "STARBOT_COMMAND_TOKEN": {
-      "description": "Slash command token, for the starbot command endpoint",
+      "description": "Slash command token, for the sourbot command endpoint",
       "required": true
     },
     "SLACK_TOKEN": {

@@ -1,6 +1,6 @@
 {
   "name": "sourbot",
-  "description": "Grumpiness - the anger of the powerless",
+  "description": "Grumpiness the anger of the powerless",
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {

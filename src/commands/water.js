@@ -11,9 +11,9 @@ var controller = Botkit.slackbot({});
 var bot = controller.spawn();
 
 const ratios = {
-    'g': 1000,
-    'ml': 1000,
-    'dl': 100000
+    'g': 1176,
+    'ml': 1176,
+    'dl': 117647
 }
 
 const handler = (message, matches) => {
