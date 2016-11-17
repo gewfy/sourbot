@@ -88,23 +88,28 @@ boolean execute(String argument) {
 
     Particle.publish("execute", argument, PRIVATE);
 
-    if (strcmp(arg, "flour") == 0) {
-        flour(val.toInt());
+
+    if (strcmp(arg, "stop") == 0) {
+        stop();
+        return true;
+    }
+    else if (strcmp(arg, "flour") == 0) {
+        startFlour(val.toInt());
         return true;
     }
     else if (strcmp(arg, "water") == 0) {
-        water(val.toInt());
+        startWater(val.toInt());
         return true;
     }
     else if (strcmp(arg, "mix") == 0) {
-        mix(val.toInt());
+        startMix(val.toInt());
         return true;
     }
 
     return false;
 }
 
-void flour(int duration) {
+void startFlour(int duration) {
     servoA.attach(SERVO_A);
     servoA.write(200);
     timer.setTimeout(duration, stopFlour);
@@ -114,7 +119,7 @@ void stopFlour() {
     servoA.detach();
 }
 
-void mix(int duration) {
+void startMix(int duration) {
     setMotorB(50, true);
     timer.setTimeout(duration, stopMix);
 }
@@ -123,13 +128,19 @@ void stopMix() {
     setMotorB(0, true);
 }
 
-void water(int duration) {
+void startWater(int duration) {
     setMotorA(255, false);
     timer.setTimeout(duration, stopWater);
 }
 
 void stopWater() {
     setMotorA(0, false);
+}
+
+void stop() {
+    stopFlour();
+    stopMix();
+    stopWater();
 }
 
 void setMotorA(int speed, boolean reverse) {
