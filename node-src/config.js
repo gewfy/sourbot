@@ -11,8 +11,6 @@ const config = {
   PORT: process.env.PORT,
   PROXY_URI: process.env.PROXY_URI,
 
-  BOT_NAME: process.env.BOT_NAME,
-  BOT_ICON: process.env.BOT_ICON,
   SLACK_COMMAND_TOKEN: process.env.SLACK_COMMAND_TOKEN,
   PARTICLE_DEVICE_ID: process.env.PARTICLE_DEVICE_ID,
   PARTICLE_AUTH_TOKEN: process.env.PARTICLE_AUTH_TOKEN

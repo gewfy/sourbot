@@ -1,18 +1,22 @@
 {
   "name": "sourbot",
-  "description": "Grumpiness the anger of the powerless",
+  "description": "Grumpiness is the anger of the powerless",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "node-src/index.js",
   "scripts": {
-    "start": "node ./src"
+    "start": "node ./node-src"
   },
   "author": {
     "email": "jakob@vinnovera.se",
     "name": "Jakob Öhman",
-    "url": "https://vinnovera.se"
+    "url": "http://vinnovera.se"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vinnovera/sourbot.git"
   },
   "bugs": {
-    "url": "https://github.com/vinnovera"
+    "url": "https://github.com/Vinnovera/sourbot/issues"
   },
   "dependencies": {
     "body-parser": "^1.15.0",

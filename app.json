@@ -1,20 +1,24 @@
 {
   "name": "sourbot",
-  "description": "Grumpiness the anger of the powerless",
+  "description": "Grumpiness is the anger of the powerless",
   "repository": "https://github.com/Vinnovera/sourbot",
-  "logo": "https://heroku-www-files.s3.amazonaws.com/starbot/starbot-icon.png",
+  "logo": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f916.png",
   "success_url": "/",
   "env": {
     "HEROKU_APP_NAME": {
       "required": true
     },
-    "STARBOT_COMMAND_TOKEN": {
-      "description": "Slash command token, for the sourbot command endpoint",
+    "SLACK_COMMAND_TOKEN": {
+      "description": "Slash command token",
       "required": true
     },
-    "SLACK_TOKEN": {
-      "description": "Slack bot RTM API token",
-      "required": false
+    "PARTICLE_AUTH_TOKEN": {
+      "description": "Particle auth token",
+      "required": true
+    },
+    "PARTICLE_DEVICE_ID": {
+      "description": "Particle device id",
+      "required": true
     },
     "NODE_ENV": "staging"
   },
