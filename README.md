@@ -15,6 +15,7 @@ https://www.youtube.com/watch?v=tsDQAau0rSw
 ## 3D printable parts
 All 3D printable parts are available on Thingiverse
 http://www.thingiverse.com/thing:1893926
+![image](https://cloud.githubusercontent.com/assets/474066/20453582/681b6920-ae2a-11e6-963d-2886dfc11f00.png)
 
 ## Electronics
 Use [Fritzing](http://fritzing.org/home/) to view the ```electronics.fzz``` file
