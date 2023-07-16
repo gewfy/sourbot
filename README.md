@@ -38,4 +38,4 @@ Use [Fritzing](http://fritzing.org/home/) to view the ```electronics.fzz``` file
 * [Food processor](https://www.amazon.com/Kitchen-Master-One-Touch-Electric-Processor/dp/B01AYPSK02/)
 
 ## License
-Please do whatever you want with the source code and 3D printable parts. If you got inspired, created your own version or forked it don't hesitate to drop me a line at [jakob@vinnovera.se](mailto:jakob@vinnovera.se). Thank you!
+Please do whatever you want with the source code and 3D printable parts. If you got inspired, created your own version or forked it don't hesitate to drop me a line at [jakob@ohman.tech](mailto:jakob@ohman.tech). Thank you!
